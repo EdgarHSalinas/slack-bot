@@ -1,0 +1,20 @@
+{
+  "name": "slack-bot",
+  "version": "1.0.0",
+  "description": "MicroService Slack-Bot",
+  "main": "server/service.js",
+  "scripts": {
+    "start": "node bin/run.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "microservice",
+    "slack",
+    "bot"
+  ],
+  "author": "Edgar H Salinas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
